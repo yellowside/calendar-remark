@@ -134,24 +134,17 @@ export const Footer = () => {
           光阴荏苒，日月如梭
         </span>
         <span className='absolute transition-all duration-200 -translate-x-1/2 translate-y-full opacity-0 left-1/2 text-nowrap group-hover:translate-y-0 group-hover:opacity-100'>
-          A Project By{' '}
+          Copyright{' '}
           <a
-            href='https://xym.im'
+            href='https://www.bingdou.com.cn'
             target='_blank'
             className='bg-gradient-to-r from-[#e68765] to-[#f0b7a3] bg-clip_text text_transparent font_bold font-bold text-transparent bg-clip-text'
           >
-            XYXC
+            BingDou
           </a>
         </span>
       </div>
       <div className='flex gap-4 px-4 py-1 rounded-full bg-slate-100 dark:bg-black/40'>
-        <a
-          href='https://github.com/xyxc0673/calendar-remark'
-          target='_blank'
-          className='flex items-center justify-center transition-all duration-200 border border-transparent rounded-lg cursor-pointer size-6 md:size-8 group hover:bg-white hover:border-slate-500 dark:hover:bg-zinc-600'
-        >
-          <Github className='size-4 md:size-6 dark:stroke-zinc-400' />
-        </a>
         <LayoutToggle />
         <ThemeToggle />
         <SettingButton />
